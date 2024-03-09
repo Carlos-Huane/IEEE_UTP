@@ -1,15 +1,18 @@
 import Image from "next/image";
-import styles from "./page.module.css";
-
+// import styles from "./page.module.css";
+import Navbar from "../components/Navbar";
 export default function Home() {
+  
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
+    <main>
+      <Navbar />
+      {/* <div className={styles.description}>
         <p>
-          Get started by editing&nbsp;
+          @HSPROYECT&nbsp;
           <code className={styles.code}>src/app/page.js</code>
         </p>
-        <div>
+       
+      <div>
           <a
             href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
             target="_blank"
@@ -49,7 +52,7 @@ export default function Home() {
           <h2>
             Docs <span>-&gt;</span>
           </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
+          <p>Hola</p>
         </a>
 
         <a
@@ -89,7 +92,7 @@ export default function Home() {
             Instantly deploy your Next.js site to a shareable URL with Vercel.
           </p>
         </a>
-      </div>
+      </div>  */}
     </main>
   );
 }
