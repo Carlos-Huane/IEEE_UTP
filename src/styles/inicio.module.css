@@ -1,5 +1,48 @@
 .main {
-    min-height: 100vh;
+    /* min-height: 85vh; */
     background: linear-gradient(268.78deg, rgba(109, 149, 252, 0.67) -53.1%, rgba(109, 149, 252, 0) 30.41%);
-
+    position: relative;
+    padding-left: 100px;
+    padding-bottom: 50px;
+    /* display: flex; */
 }
+.main img {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    z-index: -1;
+    width:800px;
+    height:500px;
+    /* width: 50%; */
+    /* height: 80%; */
+}
+.principal {
+    /* background-color: red; */
+    padding-top: 100px;
+    margin-left: 50px;
+    max-width: 500px;
+}
+
+.principal h4 {
+    color: var(--primary);
+    margin-bottom: 30px;
+}
+.principal p {
+    line-height: 22px;
+    margin-bottom: 30px;
+}
+.principalText {
+    text-align: center;
+    /* font-size: 20px; */
+    font-size: x-large;
+}
+.principalText span {
+    color: var(--primary);
+}
+.line {
+    margin: 30px 0;
+    width: 100px;
+    height: 2px;
+    background-color: var(--primary);
+}
+

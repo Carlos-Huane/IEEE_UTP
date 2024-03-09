@@ -6,9 +6,9 @@ export default function Navbar () {
                 
                 <div className={styles.leftText}>
                     <h2>UTP</h2>
-                    <p>Universidad</p>
-                    <p>Tecnológica del</p>
-                    <p>Perú</p>
+                    <p>UNIVERSIDAD</p>
+                    <p>TECNOLÓGICA DEL</p>
+                    <p>PERÚ</p>
                 </div>
                 
             </div>
