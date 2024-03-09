@@ -1,11 +1,13 @@
 import Image from "next/image";
 // import styles from "./page.module.css";
 import Navbar from "../components/Navbar";
+import Inicio from "@/components/Inicio";
 export default function Home() {
   
   return (
     <main>
       <Navbar />
+      <Inicio />
       {/* <div className={styles.description}>
         <p>
           @HSPROYECT&nbsp;
