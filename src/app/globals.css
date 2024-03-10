@@ -11,7 +11,7 @@ body {
 }
 
 body {
-  color: white;
+  color: #FFFFFF;
   background: black
 }
 
@@ -21,6 +21,10 @@ a {
 }
 li {
   list-style:none;
+}
+p {
+  /* color: rebeccapurple; */
+  font-weight: 100;
 }
 :root {
   --primary: #6D95FC;

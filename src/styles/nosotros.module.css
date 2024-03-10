@@ -1,19 +1,82 @@
+.nosotros{
+    /* min-height: 85vh; */
+
+    position: relative;
+    /* padding-left: 100px;  */
+    padding-bottom: 50px;
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+    padding-right: 10%;
+    gap: 60px;
+    background: linear-gradient(273.72deg, rgba(109, 149, 252, 0) 45.51%, rgba(109, 149, 252, 0.26) 57.56%);
+
+}
+.nosotros img {
+    /* background: linear-gradient(273.72deg, rgba(109, 149, 252, 0) 6.51%, rgba(109, 149, 252, 0.26) 57.56%); */
+    /* position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: -1; */
+    width:500px;
+    height:500px;
+   
+
+}
+.main img {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    z-index: -1;
+    width:800px;
+    height:500px;
+    /* width: 50%; */
+    /* height: 80%; */
+}
 .principal {
-    display: inherit;
-    justify-content: inherit;
-    align-items: inherit;
-    font-size: 0.85rem;
-    max-width: var(--max-width);
-    width: 100%;
-    z-index: 2;
-    font-family: var(--font-mono);
+    /* background-color: red; */
+    padding-top: 100px;
+    /* margin-left: 50px; */
+    max-width: 500px;
 }
 
-.prueba {
-    position: relative;
-    margin: 0;
-    padding: 1rem;
-    /* background-color: rgba(var(--callout-rgb), 0.5);
-    border: 1px solid rgba(var(--callout-border-rgb), 0.3);
-    border-radius: var(--border-radius); */
+.principal h4 {
+    color: var(--primary);
+    margin-bottom: 30px;
 }
+.principal p {
+    line-height: 22px;
+    margin-bottom: 30px;
+}
+.principalText {
+    /* text-align: center; */
+    /* font-size: 20px; */
+    font-size: x-large;
+    
+}
+.nosotros span {
+    color: var(--primary);
+}
+.line {
+    margin: 20px 0;
+    width: 100px;
+    height: 2px;
+    background-color: var(--secondary);
+}
+
+@media screen and (max-width: 768px) {
+    .nosotros {
+      padding-right: 5%; /* Ajusta el valor según sea necesario */
+      justify-content: center;
+      flex-direction: column-reverse;
+      padding: 0px 20px 50px;
+      gap:0px;
+    }
+    .nosotros img {
+        width: 400px;
+        height: 400px;
+    }
+    .principal {
+        padding-top: 50px;
+    }
+  }

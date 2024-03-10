@@ -2,12 +2,16 @@ import Image from "next/image";
 // import styles from "./page.module.css";
 import Navbar from "../components/Navbar";
 import Inicio from "@/components/Inicio";
+import Nosotros from "@/components/Nosotros";
+import Comites from '../components/Comites';
 export default function Home() {
   
   return (
     <main>
       <Navbar />
       <Inicio />
+      <Nosotros />
+      <Comites/>
       {/* <div className={styles.description}>
         <p>
           @HSPROYECT&nbsp;
