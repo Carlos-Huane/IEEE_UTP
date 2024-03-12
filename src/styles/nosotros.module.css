@@ -1,5 +1,5 @@
 .nosotros{
-    /* min-height: 85vh; */
+    min-height: 100vh;
 
     position: relative;
     /* padding-left: 100px;  */
@@ -69,7 +69,7 @@
       padding-right: 5%; /* Ajusta el valor según sea necesario */
       justify-content: center;
       flex-direction: column-reverse;
-      padding: 0px 20px 50px;
+      padding: 0px 10% 50px;
       gap:0px;
     }
     .nosotros img {
