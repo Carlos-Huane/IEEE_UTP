@@ -1,0 +1,27 @@
+.data {
+    width: 100%;
+    display: flex;
+    background: linear-gradient(268.78deg, rgba(109, 149, 252, 0.67) -53.1%, rgba(109, 149, 252, 0) 30.41%);
+    padding: 20px 10%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.section img {
+    width: 60px;
+    height: 60px;
+}
+.section p span {
+    color: var(--primary);
+    letter-spacing: 0.8px;
+}
+.number {
+    font-size: 45px;
+    font-weight: 700;
+}

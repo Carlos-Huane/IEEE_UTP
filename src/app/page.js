@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar";
 import Inicio from "@/components/Inicio";
 import Nosotros from "@/components/Nosotros";
 import Comites from '../components/Comites';
+import Data from "@/components/Data";
 export default function Home() {
   
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Inicio />
       <Nosotros />
       <Comites/>
+      <Data /> 
       {/* <div className={styles.description}>
         <p>
           @HSPROYECT&nbsp;
