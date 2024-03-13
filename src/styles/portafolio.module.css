@@ -1,0 +1,35 @@
+.portafolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+    text-align: center;
+}
+.section {
+    /* background-color: rebeccapurple; */
+    width: 400px;
+    margin-bottom: 50px;
+}
+.section span {
+    color: var(--primary);
+}
+.sectionLine {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sectionLine p {
+    font-size: small;
+    margin: 0 10px;
+}
+.line {
+    width: 20%;
+    height: 2px;
+    background-color: var(--secondary);
+}
+/* .carrusel {
+    width: 800px;
+} */
