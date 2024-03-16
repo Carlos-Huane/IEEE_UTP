@@ -6,6 +6,7 @@ import Nosotros from "@/components/Nosotros";
 import Comites from '../components/Comites';
 import Data from "@/components/Data";
 import Portafolio from "@/components/Portafolio";
+import Voluntario from "@/components/Voluntario";
 export default function Home() {
   
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Comites/>
       <Data /> 
       <Portafolio />
+      <Voluntario />
       {/* <div className={styles.description}>
         <p>
           @HSPROYECT&nbsp;

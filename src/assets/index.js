@@ -11,6 +11,7 @@ import premios from '../assets/premios.png'
 import proyecto_1 from '../assets/proyecto_1.png'
 import proyecto_2 from '../assets/proyecto_2.png'
 import proyecto_3 from '../assets/proyecto_3.png'
+import check from '../assets/check.png'
 export {
     woman,
     robot,
@@ -24,5 +25,6 @@ export {
     premios,
     proyecto_1,
     proyecto_2,
-    proyecto_3
+    proyecto_3,
+    check,
 }
